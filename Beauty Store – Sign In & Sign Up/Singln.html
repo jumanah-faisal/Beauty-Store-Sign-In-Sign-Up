@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Beauty store</title>
+        <link rel="stylesheet" href="CSS.css">
+        <img id="logo" src="./photo_5926985277581149344_y.jpg">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <!-- -->
+    <body>
+        <header>
+        </header>
+        <nav>
+            <ul>
+                <li class="PB"><a id="PB", href="home.html">Home</a></li>
+                <li class="PB"><a id="PB", href="Shop.html">Shop</a></li>
+                <li class="PB"><a id="PB", href="AboutUs.html">AboutUs</a></li>
+                <li class="PB"><a id="PB", href="SingIn.html">SingIn</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <form>
+            <fieldset>
+            <p id="help" onmousedown="mouseDown()" onmouseup="mouseUp()">TIP!</p>
+            <h2 id="sing">Sing in</h2>
+            <p id="S">Username*:</p>
+            <input type="text" placeholder="Username" required><br>
+            <p id="S">password*:</p>
+            <input type="password" placeholder="Enter your Password" required>
+            <button id="B" type="submit">Login</button>
+            </fieldset>
+            <fieldset>
+                <p id="SU">Don't you have an account? <a href="SingUp.html">Sing Up</a></p>
+            </fieldset>
+          </form>
+          <!-- -->
+
+
+          <!--script-->
+
+          <script>
+            function mouseDown() {
+              document.getElementById("help").innerHTML = "TIP: Type a strong password that contains uppercase and lowercase letters, numbers, and special characters ";
+            }
+            
+            function mouseUp() {
+              document.getElementById("help").innerHTML = "TIP ";
+            }
+          </script>
+
+            <!--script-->
+
+
+          <footer>
+            <p id="CR">© 2024 Beauty store All Rights Reserved</p>
+        </footer>
+    </body>
+</html>
